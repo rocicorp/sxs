@@ -34,6 +34,7 @@ export default function Home({ url }: { url: string }) {
           display: "flex",
           border: 0,
           flex: 1,
+          minWidth: 100,
         }}
         src={url}
       />
@@ -43,6 +44,7 @@ export default function Home({ url }: { url: string }) {
           display: "flex",
           border: 0,
           flex: 1,
+          minWidth: 100,
         }}
         src={url}
       />
